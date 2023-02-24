@@ -1,0 +1,257 @@
+/* Global styles */
+
+body {
+	font-family: Arial, sans-serif;
+	font-size: 16px;
+	line-height: 1.5;
+	margin: 0;
+	padding: 0;
+}
+
+/* Header styles */
+
+body {
+    margin: 0;
+    background: #222;
+    font-weight: 300;
+    
+  }
+  
+  header {
+    background: gray;
+    position: relative;
+  }
+  
+  header::after {
+    content: '';
+    display: table;
+    clear: both;
+  }
+  
+  nav {
+    float: left;
+  }
+  
+  nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  
+  nav li {
+    display: inline-block;
+    margin-left: 70px;
+    padding-top: 30px;
+    position: relative;
+  }
+  
+  nav ul li a {
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: bold;
+  }
+  
+  
+  
+  nav a::before {
+    content: '';
+    display: block;
+    height: 5px;
+    width: 0%;
+    background-color: #444;
+    transition: all ease-in-out 500ms;
+  }
+  
+  nav a:hover::before {
+    width: 100%;
+  }
+  
+  form .form {
+    float: right;
+  }
+  
+  .search-bar {
+    float: right;
+  }
+  
+  ul li:last-child {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    margin: 15px;
+    margin-bottom: 0px;
+    padding: 0;
+  }
+
+/* Banner styles */
+
+#banner {
+    background: url('https://wallpapercave.com/wp/wp6212795.png') center/cover no-repeat;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: black;
+  }
+  
+  #banner h1 {
+    font-size: 60px;
+    margin-bottom: 20px;
+  }
+  
+  #banner p {
+    font-size: 24px;
+    margin-bottom: 30px;
+    max-width: 600px;
+    line-height: 1.5;
+  }
+  
+#banner button {
+	
+	
+	font-size: 24px;
+	padding: 10px 20px;
+}
+/*shop*/
+#shop-btn {
+    background-color: #fff;
+	border: none;
+	color: #333;
+	cursor: pointer;
+	font-size: 24px;
+    cursor: pointer;
+  }
+  
+  #shop-btn:hover {
+    background-color: darkgray;
+  }
+  
+  
+  
+  @media (max-width: 768px) {
+    #shop-btn {
+      display: block;
+      margin: 20px auto 0;
+    }
+  }
+  
+/* Features styles */
+
+#features {
+	background-color: gray;
+	padding: 80px 20px;
+	text-align: center;
+   
+}
+
+#features h2 {
+	font-size: 50px;
+	margin-bottom: 50px;
+    text-align: center;
+}
+
+#features ul {
+	list-style: none;
+	margin: 20px;
+	padding: 95px 10px;
+    text-align: center;
+}
+
+#features li {
+	display: inline-block;
+	margin-right: 40px;
+    text-align:center;
+}
+
+
+  
+  
+/*contact*/
+a {
+    color: #007bff;
+    font-size: 16px;
+    text-align:center;
+    display: block;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+
+/* About section styles */
+
+#about {
+	background-color: #333;
+	color: #fff;
+	padding: 80px 20px;
+	text-align: center;
+}
+
+#about h2 {
+	font-size: 36px;
+	margin-bottom: 40px;
+}
+
+#about p {
+	font-size: 18px;
+	line-height: 1.5;
+	margin-bottom: 40px;
+}
+/* form*/
+#sign-in-up {
+    padding: 80px 0;
+    background-color: gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #sign-in-up h3 {
+    margin-top: 0;
+    margin-bottom: 30px;
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  #sign-in-up form {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  }
+  
+  #sign-in-up label {
+    font-weight: bold;
+  }
+  
+  #sign-in-up input[type="email"],
+  #sign-in-up input[type="password"],
+  #sign-in-up input[type="text"] {
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    font-size: 16px;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  
+  #sign-in-up button[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  #sign-in-up button[type="submit"]:hover {
+    background-color: #0069d9;
+  }
+  
